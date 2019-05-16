@@ -1,0 +1,27 @@
+.fa-min {
+  color: darkblue;
+}
+.fa-min-fad {
+  color: darkblue;
+  opacity: 0.2;
+}
+.fa-add {
+  color: deeppink;
+}
+.fa-add-fad {
+  color: deeppink;
+  opacity: 0.2;
+}
+.app-td{
+  text-align: center
+}
+.app-le{
+  float: left;
+}
+.app-ri{
+  float: right;
+}
+.fa-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
