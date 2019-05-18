@@ -36,7 +36,7 @@ class App extends Component {
                 invalidRoomAdd: true
             })
         }
-        if (this.state.personAllowed === this.state.maxLimit) {
+        if (this.state.personAllowed === this.state.maxLimit  && this.state.roomCount < 5) {
             this.setState({
                 invalidRoomAdd: false
             })
